@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about</title>
+    <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <div id="about">
+            <div class="container">
+               <div class="row">
+                <div class="about-col-1">
+                    <img src="abt img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me    
+                    </h1>
+                        <p class="para">
+                            I am a dedicated,organized and methodical individual.I have good interpersonal skills,am an 
+                            excellent team worker and am keen and very willing to learn and develop new skills.I am reliable
+                            and dependable and often seek new responsibilites within a wide range of employment areas. Currently Studying 3rd year 
+                            in kingston Engineering college and am well trainedin python,Html as well as css.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>     
+                            <p class="tab-links" onclick="opentab('education')"> Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>UI/UX</span><br>Desinging web/APP interfaces</br>
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br>Desinging web/APP interfaces</br>
+                                </li>
+                                <li>
+                                    <span>APP Development</span><br>Desinging web/APP interfaces</br>
+                                </li>
+                            </ul>
+                        </div>
+                     
+                        <div class="tab-contents active-tab" id="experience">
+                            <p>During my 3rd year I completed  an online internship and build some projects
+                                Currently  working as an intern in Focus Logic</p>
+                        </div> 
+                        <div class="tab-contents"id="education">
+                            <ul>
+                                <li>
+                                    <span>2020</span><br>completed my schooling in Holycross matriculation school</br>
+                                </li>
+                                <li>
+                                    <span>2021</span><br>Btech IT in kingston</br>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+    </body>
+</html>

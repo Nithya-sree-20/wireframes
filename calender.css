@@ -1,0 +1,32 @@
+.calender{
+    padding:20px;
+    margin:30px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: black solid 1px;
+}
+.table{
+    border: black solid 1px;
+}
+th{
+    font-weight:bold;
+    color:#555;
+    background-color: #f7f7f7;
+}
+td{
+    padding:10p;
+    text-align: center;
+}
+td:hover{
+    background-color:blue;
+    color:#fff
+}
+*{
+    padding:25px;
+    margin:20px;
+    margin-top: 0;
+}
+.side{
+    background-color: aqua;
+}

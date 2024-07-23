@@ -1,0 +1,30 @@
+*{
+    padding: 5px;
+    margin:10px;
+}
+ul li{
+   display: inline;
+   list-style:none;
+   text-decoration: none;
+}
+li a{
+    list-style:none;
+    text-decoration:none;
+    color:red;
+
+}
+li a:hover{
+     color:aliceblue;
+}
+ul{
+    position: relative;
+    left: 250px;
+    bottom:50px;
+    list-style: none;
+}
+.wire{
+    background-color: black;
+    color:red;
+}
+
+

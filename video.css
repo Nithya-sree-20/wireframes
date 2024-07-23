@@ -1,0 +1,21 @@
+.video {
+    margin:40px;
+    position: relative;
+    left:150px
+ }
+ center h1{
+     margin-left:60px; 
+ }
+ td:hover{
+    background-color:blue;
+    color:#fff
+}
+th{
+    font-weight:bold;
+    color:#555;
+    background-color: #f7f7f7;
+}
+td{
+    padding:10p;
+    text-align: center;
+}

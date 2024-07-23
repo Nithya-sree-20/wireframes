@@ -1,0 +1,39 @@
+*{
+    padding: 5px;
+    margin:10px;
+}
+tr{
+    border: black solid 1px;
+}
+button{
+  position: relative;
+  top:45px;
+  background-color: hsl(120, 73%, 20%);
+  color:aliceblue;
+  width:90%;
+}
+
+.side{
+    position: relative;
+    left:850px;
+    bottom: 580px;
+    border: black solid 1px;
+    width:400px;
+}
+.side table tr td{
+    margin:30px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    padding-right:100px; 
+}
+.side table tr{
+    margin-left:50px; 
+}
+.sidebtn{
+    background-color:#cd6742;
+    width: 50%;
+    position: relative;
+    top:125px;
+    left: 80px;
+}

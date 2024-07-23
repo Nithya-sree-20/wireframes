@@ -1,0 +1,45 @@
+* {
+    margin: 15px;
+    padding: 10px;
+}
+
+.p1, .p2, .p3 {
+    width: 250px;
+    border: black 2px solid;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: whitesmoke;
+    color: black;
+    transition: transform 0.5s, background-color 0.5s, color 0.5s; /* Adding transition for smooth effect */
+}
+
+button {
+    width: 50%;
+    background-color: #5050e3;
+    color: whitesmoke;
+    transition: background-color 0.5s, color 0.5s; /* Adding transition for smooth effect */
+}
+
+.container {
+    display: flex;
+    position: relative;
+    left: 180px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Hover effect for the pricing plans */
+.p1:hover, .p2:hover, .p3:hover {
+    background-color: #5050e3;
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+/* Hover effect for the buttons */
+button:hover {
+    background-color: whitesmoke;
+    color: #5050e3;
+}

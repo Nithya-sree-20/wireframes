@@ -1,0 +1,64 @@
+.header{
+    display:flex;
+    color: black;
+    background-color: #a8efef;
+}
+.header ul{
+     display: flex;
+     list-style:none;
+     padding:10px;
+     position: relative;
+     left:690px;
+     
+}
+.header h1{
+    padding-left:30px;
+}
+.header ul li a{
+    margin:45px;
+    text-decoration: none;
+    color:black;
+}
+.header ul li a:hover{
+    color:blue;
+}
+.header ul li{
+    list-style: none;
+    
+}
+.table tr td{
+     padding:20px;
+}
+.cart{
+    position: relative;
+    bottom:-40px;
+    right:200px;
+}
+
+.products{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    padding: 15px;
+    border:black 2px solid;
+}
+
+.btn{
+    transform: translateY(790px);
+    margin:100px;
+    position: relative;
+    bottom:130px;
+    right:60px;
+ 
+
+}
+button{
+    background-color: #3dfa3d;
+    color:black;
+}
+.table{
+    position: relative;
+    bottom:180px;
+}

@@ -1,0 +1,23 @@
+button{
+    width:100px;
+    position: relative;
+    margin-left:300px;
+}
+.Payment{
+    border: black solid 1px;
+}
+td{
+    display: inline-block;
+    width:40%;
+}
+*{
+    padding: 5px;
+    margin:10px;
+}
+button:hover{
+    background-color: blue;
+    color:aliceblue;
+}
+.table{
+    border: black solid 1px;
+}
